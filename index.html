@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="title">indiaCodeCamp Survey Form</h1>
+    <h2 id="titlesub">Thank you for taking the time to help us improve the platform</h2>
+
+    <center>  
+     <div id="container">
+       <form>
+        <label for="name">Name</label>
+        <input type="text" class="inbox" id="name"placeholder="Enter your name">
+        <label for="Email">Email</label>
+        <input type="email" class="inbox" id="email" placeholder="Enter your email">
+        <label for="Age">Age</label>
+        <input type="text" class="inbox" id="Age" placeholder="Enter your name">
+        <label for="role">Which option best describes your current role?</label>
+        <input type="text" id="role" class="inbox" placeholder="Enter your name">
+
+        <label>Would you recommend indiaCodeCamp to a friend?</label>
+        <label>
+            <input type="radio" name="rec" value="Sure">Sure
+        </label>
+        <label>
+          <input type="radio" name="rec" value="Maybe">Maybe
+      </label>
+      <label>
+        <input type="radio" name="rec"value="No">No
+    </label>
+
+    <label>What is your favorite feature of indiaCodeCamp?</label>
+    <select class="inbox">
+      <option>Challenges</option>
+      <option>Projects</option>
+      <option>Community</option>
+      <option>Open source</option>
+    </select>
+
+    <label>What would you like to see improved? (Check all that apply)</label>
+    <label>
+      <input type="checkbox" name="reco"value="wd">Web dev
+  </label>
+  <label>
+    <input type="checkbox" name="reco"value="fe">Frond-end
+</label>
+<label>
+  <input type="checkbox" name="reco"value="os">Open Source
+</label>
+<label for="suggest">Any comments or suggestions?</label>
+<textarea id="suggest" placeholder="Enter Your Suggetions here" name="suggest"></textarea>
+    <button>submit</button>
+       </form>
+     </div>
+    </center>
+</body>
+</html>
